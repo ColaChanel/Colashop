@@ -1,0 +1,27 @@
+.topbar {
+	display:flex;
+}
+.navigation li {
+	display:inline-block;
+	float:left;
+	margin: 0 50px;
+	font-family: Georgia;
+	color:  #8e0813;
+	font-size: 28.5px;
+	font-weight: 400;
+}
+.Welcome {
+	text-align: center;
+}
+.Tabs li {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+}
+.Guarantees {
+	text-align: center;
+	font-family: Georgia;
+	color:  #8e0813;
+	font-size: 28.5px;
+	font-weight: 400;
+}
