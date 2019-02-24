@@ -1,6 +1,5 @@
 .topbar {
 	display:flex;
-	background-color: #ebebec;
 }
 .navigation li {
 	display:inline-block;
@@ -13,19 +12,11 @@
 }
 .Welcome {
 	text-align: center;
-	font-family: Georgia;
-	color:  #8e0813;
-	font-size: 28.5px;
-	font-weight: 400;
 }
 .Tabs li {
-    display:inline-block;
-    padding-left: 200px;
-	margin: 0 50px;
-	font-family: Georgia;
-	color:  #8e0813;
-	font-size: 28.5px;
-	font-weight: 400;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
 }
 .Guarantees {
 	text-align: center;
@@ -33,15 +24,4 @@
 	color:  #8e0813;
 	font-size: 28.5px;
 	font-weight: 400;
-}
-.logo {
-	width: 20%;
-	height: 50%;
-}
-.logo img {
-	width: 80%;
-	height: 50%;
-}
-.container {
-	background-color: #151935;
 }
